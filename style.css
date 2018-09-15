@@ -1,0 +1,28 @@
+*{
+    font-family: 'Patua One', cursive,Arial,sans-serif;
+}
+#image{
+    border-radius: 50%;
+    width:35vh;
+    height:35vh;
+}
+.main-section{
+    text-align: center;
+    vertical-align: middle;
+}
+.main-section-text-hashtags-span{
+    font-size: 14px;
+    text-decoration: none;
+    pointer-events: none;
+}
+#main-section-text span{
+    font-size: 30px;
+}
+.main-section :hover{
+    cursor: text;
+}
+.main-section-text-hashtags{
+    
+}
+
+
