@@ -1,19 +1,40 @@
+/*----------------General---------------------------*/
 *{
     font-family: 'Patua One', cursive,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
 }
-#image{
+/*-----------------Home Page-------------------------*/
+/*-----------------Navigation Section ---------------*/
+.nav-section a{
+   text-align: right;
+   text-decoration: none;
+   padding: 14px 30px;
+   text-align: center;
+   color: black;
+}
+.nav-section{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 7vh; 
+}
+
+/*-------------------Main Section ---------------------*/
+#image{  
+    position: relative;
     border-radius: 50%;
     width:35vh;
     height:35vh;
+    margin-top: 10vh;
+    cursor:pointer;
 }
 .main-section{
     text-align: center;
     vertical-align: middle;
 }
 .main-section-text-hashtags-span{
+    margin-top: 30px;
     font-size: 14px;
     text-decoration: none;
-    pointer-events: none;
 }
 #main-section-text span{
     font-size: 30px;
@@ -21,8 +42,50 @@
 .main-section :hover{
     cursor: text;
 }
-.main-section-text-hashtags{
-    
+/*---------------------Footer Section -------------------*/
+
+.footer-section{
+  margin: auto;
+  align-content: center;
+  width: 50%;
+  margin-top: 10vh;
 }
+.box{   
+    display: inline-block;
+    padding: 14px 70px;
+    cursor: pointer;
+}
+.powered-section p{
+    text-align: center;
+    margin-top: 2vh;    
+    color: #A0A0A0;
+}
+.heart-icon {
+    color: #f77;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
