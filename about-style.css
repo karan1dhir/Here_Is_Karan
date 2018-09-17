@@ -7,7 +7,7 @@
 /*-------------------ProjectsPage-----------------------*/
 /*------------------Navigation Section----------------*/
 .nav-section a{
-    text-align: right;
+    float: right;
     text-decoration: none;
     padding: 14px 30px;
     text-align: center;
@@ -32,10 +32,28 @@
     margin: auto;
     width: 80%;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
 }
 #intern-shopclues{
     text-decoration: underline;
-    font-family: '
+    font-size: 23px;
+    color: #24A3B5
+}
+#company-nagarro{
+    text-decoration: underline;
+    font-size: 23px;
+    color: #161950;
+
+}
+#algorithms{
+    text-decoration: underline;
+    font-size: 23px;
+    color: #3ED715
+}
+#intern-CodingNinjas{
+   text-decoration: underline;
+   font-size: 23px;
+   color:#DF4E31;
 }
 
 

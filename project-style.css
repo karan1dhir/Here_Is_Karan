@@ -7,7 +7,7 @@
 /*-------------------ProjectsPage-----------------------*/
 /*------------------Navigation Section----------------*/
 .nav-section a{
-    text-align: right;
+    float: right;
     text-decoration: none;
     padding: 14px 30px;
     text-align: center;
@@ -41,7 +41,7 @@
     
 }
 .project-content{
-    display: inline-block;
+   
     
 }
 

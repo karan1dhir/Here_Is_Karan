@@ -7,7 +7,7 @@
 /*-----------------Home Page-------------------------*/
 /*-----------------Navigation Section ---------------*/
 .nav-section a{
-   text-align: right;
+   float: right;
    text-decoration: none;
    padding: 14px 30px;
    text-align: center;
@@ -15,7 +15,9 @@
 }
 .nav-section{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    height: 7vh; 
+    display: block;
+    height: 7vh;
+    position: relative;
 }
 
 /*-------------------Main Section ---------------------*/
