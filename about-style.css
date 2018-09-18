@@ -57,11 +57,17 @@
 /*----------------------------Qoute Content-------------------------------------*/
 .main-qoute-content img{
     border-radius: 50%;
-    width:35vh;
-    height:35vh;
+    width:38vh;
+    height:42vh;
+    margin-top: 4vh;
 }
-
-
+.main-qoute-content{
+    text-align: center;
+}
+.main-qoute-content p{
+    margin-top: 2vh;
+    font-family: Arial, Helvetica, sans-serif;    
+}
 
 
 
