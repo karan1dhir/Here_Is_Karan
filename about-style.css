@@ -1,80 +1,81 @@
 /*---------------------General---------------------------*/
-*{
-    font-family: 'Patua One', cursive,Arial,sans-serif;
+* {
+    font-family: 'Patua One', cursive, Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
+
 /*-------------------ProjectsPage-----------------------*/
 /*------------------Navigation Section----------------*/
-.nav-section a{
+.navbar-nav li {
     float: right;
     text-decoration: none;
-    padding: 14px 30px;
+    padding: 0px 30px 0px 0px;
     text-align: center;
     color: black;
- }
- .nav-section{
-     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-     height: 7vh; 
- }
+}
+
+.nav-section {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: fixed;
+}
+
 /*---------------------Main Section------------------*/
 
-.main-content-heading h1{
+.main-content-heading h1 {
     text-align: center;
     margin-top: 5vh;
     letter-spacing: 2px;
 }
-.main-content p{
+
+.main-content p {
     margin: auto;
     width: 80%;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.2;
 }
-#intern-shopclues{
+
+#intern-shopclues {
     text-decoration: underline;
     text-decoration-style: double;
     font-size: 23px;
     color: #24A3B5
 }
-#company-nagarro{
+
+#company-nagarro {
     text-decoration: underline;
     font-size: 23px;
     text-decoration-style: double;
     color: #161950;
 }
-#algorithms{
+
+#algorithms {
     text-decoration: underline;
     font-size: 23px;
     text-decoration-style: double;
     color: #3ED715
 }
-#intern-CodingNinjas{
-   text-decoration: underline;
-   font-size: 23px;
-   text-decoration-style: double;
-   color:#DF4E31;
+
+#intern-CodingNinjas {
+    text-decoration: underline;
+    font-size: 23px;
+    text-decoration-style: double;
+    color: #DF4E31;
 }
+
 /*----------------------------Qoute Content-------------------------------------*/
-.main-qoute-content img{
+.main-qoute-content img {
     border-radius: 50%;
-    width:38vh;
-    height:42vh;
+    width: 38vh;
+    height: 42vh;
     margin-top: 4vh;
 }
-.main-qoute-content{
+
+.main-qoute-content {
     text-align: center;
 }
-.main-qoute-content p{
+
+.main-qoute-content p {
     margin-top: 2vh;
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
